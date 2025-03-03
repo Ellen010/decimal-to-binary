@@ -2,6 +2,7 @@ const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 const animationContainer = document.getElementById("animation-container");
+const resetBtn = document.getElementById("reset-btn");
 const animationData = [
   {
     inputVal: 5,
