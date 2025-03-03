@@ -118,7 +118,8 @@ h2 {
   border: 2px solid transparent;
   border-radius: 8px;
   cursor: pointer;
-  padding: 12px;
+  padding: 8px;
+  gap:10px;
 }
 
 .reset-btn:hover {
