@@ -81,7 +81,7 @@ h2 {
   border-radius: 10px;
 }
 
-.mid-container {
+.low-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
