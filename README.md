@@ -1,5 +1,5 @@
 <h3>Decimal to Binary converter.</h3>
-<p>In this code, JS tools like:</p>
+<p>This code several JS tools we explored, like:</p>
 <p>-recursion,</p>
 <p>-call stack,</p>
 <p>-a visual representation of the recursion process through an animation.</p>
