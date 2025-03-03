@@ -84,3 +84,12 @@ numberInput.addEventListener("keydown", (e) => {
     checkUserInput();
   }
 });
+
+const resetInputs = () => {
+  numberInput.value = "";
+  result.textContent = "";
+  animationContainer.innerHTML = "";
+};
+
+resetBtn.addEventListener("click", resetInputs);
+
