@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
 }
-
 :root {
   --light-grey: #f5f6f7;
   --dark-blue: #1b1b32;
@@ -17,12 +16,15 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
   align-items: center;
   font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
     monospace;
   font-size: 1.125rem;
   color: var(--light-grey);
   background-image: linear-gradient(#fefae0,#3e5c76,#33415c,#124559);
+  background-size: cover;
   padding: 0 4px;
 }
 
