@@ -68,6 +68,7 @@ h2 {
   cursor: pointer;
   padding: 8px;
 }
+
 .convert-btn:hover {
  background-color: var(--yellow);
  border-color: var(--white);
@@ -80,6 +81,16 @@ h2 {
   border-radius: 10px;
 }
 
+.mid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: clamp(320px, 50vw, 460px);
+  margin: 10px auto;
+  
+}
 .output-container {
   margin-inline: auto;
   width: clamp(320px, 50vw, 460px);
@@ -98,6 +109,7 @@ h2 {
   border-radius: 8px;
   margin-bottom:20px;
 }
+
 .reset-btn {
   font-size: inherit;
   font-family: inherit;
@@ -109,10 +121,12 @@ h2 {
   cursor: pointer;
   padding: 8px;
 }
+
 .reset-btn:hover {
  background-color: var(--yellow);
  border-color: var(--white);
 }
+
 #animation-container {
   display: flex;
   flex-direction: column-reverse;
